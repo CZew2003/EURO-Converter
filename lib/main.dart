@@ -16,7 +16,6 @@ class MyApp extends StatelessWidget {
         textSelectionTheme: const TextSelectionThemeData(
           cursorColor: Colors.blue,
           selectionHandleColor: Colors.blue,
-          selectionColor: Colors.red,
         ),
         inputDecorationTheme: const InputDecorationTheme(
           focusColor: Colors.red,

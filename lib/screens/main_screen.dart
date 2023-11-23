@@ -51,7 +51,8 @@ class _MainScreenState extends State<MainScreen> {
               text: 'Convert',
               onPressed: () {
                 setState(() {
-                  price = double.tryParse(_controller.text);
+                  price =
+                      double.tryParse(_controller.text.replaceAll(',', '.'));
                 });
               }),
           const SizedBox(
